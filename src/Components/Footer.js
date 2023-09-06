@@ -1,4 +1,4 @@
-import { Email, Facebook, Instagram, LinkedIn, Twitter } from '@mui/icons-material'
+import { Email, Facebook, LinkedIn, Twitter } from '@mui/icons-material'
 import React from 'react'
 import "../Styles/Footer.css"
 
