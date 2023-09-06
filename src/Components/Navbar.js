@@ -17,7 +17,7 @@ function Navbar() {
     <div className='navbar' id={expandNavbar ? "open": "close"}>
         <div className='toggleButton'>
             <button onClick={()=>{setExpandNavbar((prev)=> !prev)}}>
-                 <Reorder/>
+                <Reorder/>
             </button>
         </div>
 
@@ -25,7 +25,7 @@ function Navbar() {
             <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/experience">Experience</Link>
-         </div>
+        </div>
     </div>
   )
 }
