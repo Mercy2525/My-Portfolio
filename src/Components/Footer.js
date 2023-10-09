@@ -11,7 +11,8 @@ function Footer() {
             <LinkedIn/>
             <Email/>
         </div>
-        <p> &copy; 2023 https://my-portfolio-phi-sepia-37.vercel.app/</p>
+        <p> &copy; 2023 <Link to='https://my-portfolio-phi-sepia-37.vercel.app/'>Mercy Muriithi</Link>
+        </p>
     
     </div>
   )

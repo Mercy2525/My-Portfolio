@@ -22,11 +22,11 @@ const Home = () => {
                 </li>
                 <li className="item">
                     <h2> Back-End </h2>
-                    <span>Python</span>
+                    <span>Python,SQL,SQLAlchemy</span>
                 </li>
                 <li className="item">
                     <h2> Languages </h2>
-                    <span> JavaScript, Python </span>
+                    <span> JavaScript, Python,SQLAlchemy </span>
                 </li>
             </ol>
         </div>
