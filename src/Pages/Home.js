@@ -1,16 +1,19 @@
 import { Email, GitHub, LinkedIn } from "@mui/icons-material";
 import "../Styles/Home.css"
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
     return ( <div className="home">
         <div className="about">
-            <h2>Hello, My Name is Mercy</h2> <br />
+            <h2>Hi, My Name is Mercy Muriithi. </h2><br />
             <div className="prompt">
-                <p> A software developer, in the making. Student at Moringa School</p>
-                <LinkedIn/>
-                <Email/>
-                <GitHub/>
+                <p> I am a Full-Stack Developer,passionate about turning ideas into robust, user-friendly applications.
+                Let's create something amazing together!</p><br/>
+                <Link to='https://ke.linkedin.com/in/mercy-w-muriithi-060658165'><LinkedIn/></Link>
+                <Link to='https://github.com/Mercy2525'><GitHub/></Link>
+                <Link to='mailto:mercywmuriithi.mm@gmail.com'><Email/></Link>
+                
             </div>
         </div>
         <div className="skills">
@@ -22,11 +25,11 @@ const Home = () => {
                 </li>
                 <li className="item">
                     <h2> Back-End </h2>
-                    <span>Python,SQL,SQLAlchemy</span>
+                    <span>Python, Flask, SQL, SQLAlchemy</span>
                 </li>
                 <li className="item">
                     <h2> Languages </h2>
-                    <span> JavaScript, Python,SQLAlchemy </span>
+                    <span> JavaScript, Python, SQL, HTML, CSS </span>
                 </li>
             </ol>
         </div>
